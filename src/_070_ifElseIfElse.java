@@ -54,5 +54,6 @@ public class _070_ifElseIfElse {
         else wochentag = "FEHLER";
         System.out.println(wochentag);
 
+
     }
 }
