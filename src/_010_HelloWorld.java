@@ -7,6 +7,7 @@ public class _010_HelloWorld {
 
         // sout
         System.out.println("Hello World!");
+        System.out.println("Hello World!");
 
 
 
