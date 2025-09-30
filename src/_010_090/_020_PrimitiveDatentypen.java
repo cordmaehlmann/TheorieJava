@@ -1,3 +1,5 @@
+package _010_090;
+
 public class _020_PrimitiveDatentypen {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package _010_090;
+
 import java.util.Random;
 
 public class _070_ifElseIfElse {
