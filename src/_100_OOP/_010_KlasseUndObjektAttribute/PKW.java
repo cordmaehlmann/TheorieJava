@@ -11,5 +11,4 @@ public class PKW {
     String modell;
     int leistung;  // PS
 
-
 }

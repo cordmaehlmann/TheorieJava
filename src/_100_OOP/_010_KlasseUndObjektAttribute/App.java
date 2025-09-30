@@ -16,6 +16,15 @@ public class App {
         pkw1.modell = "Granturismo";
         pkw1.leistung = 369;
 
+        PKW pkw2 = new PKW();
+        pkw2.hersteller = "Trabant";
+        pkw2.modell = "601";
+        pkw2.leistung = 23;
+
+        System.out.println("PKW1: " + pkw1.hersteller + " " + pkw1.modell + " " + pkw1.leistung);
+        // PKW1: Maserati Granturismo 369
+        System.out.println("PKW2: " + pkw2.hersteller + " " + pkw2.modell + " " + pkw2.leistung);
+        // PKW2: Trabant 601 23
 
     }
 }
