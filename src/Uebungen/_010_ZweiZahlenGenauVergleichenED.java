@@ -25,15 +25,18 @@ public class _010_ZweiZahlenGenauVergleichenED {
             System.out.println("Zahl1: " + zahl1);
             System.out.println("Zahl2: " + zahl2);
             System.out.println("Zahl1 ist größer als Zahl2");
-        } else if (zahl2 > zahl1) {
+        }
+        else if (zahl2 > zahl1) {
             System.out.println("Zahl1: " + zahl1);
             System.out.println("Zahl2: " + zahl2);
             System.out.println("Zahl2 ist größer als Zahl1");
-        } else if (zahl1 == zahl2) {
+        }
+        else if (zahl1 == zahl2) {
             System.out.println("Zahl1: " + zahl1);
             System.out.println("Zahl2: " + zahl2);
             System.out.println("Die beiden Zahlen sind gleich groß");
-        } else {
+        }
+        else {
             System.out.println("FEHLER!");
         }
     }
