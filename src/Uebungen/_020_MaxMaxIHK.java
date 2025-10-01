@@ -7,6 +7,8 @@ public class _020_MaxMaxIHK {
     public static void main(String[] args) {
 
         int[] CPULoad = new int[] {12, 10, 40, 73, 33, 60};
+        // int[] CPULoad = new int[] {12, 10, 40, 73, 33, 60, 80};
+        // int[] CPULoad = new int[] {12, 10, 4, 3};
 
         int max = 0;
         int max2 = 0;
@@ -17,7 +19,7 @@ public class _020_MaxMaxIHK {
                 max2 = max;
                 max = CPULoad[i];
             } else if (CPULoad[i] > max2) {
-                max = CPULoad[i];
+                max2 = CPULoad[i];
             }
 
         }
