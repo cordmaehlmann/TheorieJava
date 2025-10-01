@@ -67,5 +67,5 @@ public class _030_Zahlenreihen {
          */
 
     }
-    
+
 }
